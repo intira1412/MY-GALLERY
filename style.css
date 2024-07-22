@@ -1,0 +1,121 @@
+body{
+    background-color: #aab3fa;
+    margin:0;
+    color: #000000;
+    font-family: Sriracha;
+    
+}
+header{
+    background-color: #188e2b;
+    color: white;
+    filter: brightness(85%);
+    border: 3px solid #4ccc6a;
+}
+header > div{
+    text-align: center;
+    line-height: 1.5
+}
+#ph{
+    height: 200px;
+    width: 200px;
+    margin: 1%;
+    display: flex;
+    border-radius: 20px;
+}
+#h1{
+    position: fixed;
+    top: 30%;
+    left: 45%;
+    font-size: 30pt;
+    text-transform: uppercase;
+}
+#top{
+    padding: 1em 10% 1em 10%;
+    background-color: #abdb65;
+}
+#bottom{
+    padding: 1em 10% 1em 10%;
+    background-color: #abdb65;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* กำหนดคอลัมน์ 3 คอลัมน์ แต่ละคอลัมน์มีความกว้างเท่ากัน */
+    grid-gap: 20px; /* กำหนดช่องว่างระหว่างรูปภาพ */
+    padding: 1em 10% 1em 10%;
+    
+}
+.photos {
+
+    width: 100%; /* รูปภาพเต็มความกว้างของคอลัมน์ */
+    height: auto; /* รักษาอัตราส่วนของภาพ */
+    border-radius: 20px;
+}
+#aa{
+    text-align: center;
+    font-size: 18pt;
+    color: #f2baf5;
+    margin-top: 5px;
+}
+
+.previous:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+.previous {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #f1f1f1;
+    color: black;
+}
+
+#pp{
+    text-indent: 50px; /*ย่อหน้า*/
+	text-align: justify; /*ชิดขอบซ้ายขวา*/
+}
+
+
+footer{
+	background: #188e2b;
+	color: Black;
+	font-size: 0.9em;
+	padding: 1em 10% 1em 10%;
+}
+table {
+    width: 100%;
+    padding: 1em 10% 1em 10%;
+}
+.td {
+    width: 30%;
+    position: relative;
+    
+}
+.td:after {
+    content: '';
+    display: block;
+    margin-top: 100%;
+  }
+.content {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 10px;
+}
+td img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.first{
+    position: absolute;
+    top: 270px;
+    right: 90px; 
+}
+.cc{
+    background-color: #188e2b;
+    color: white;
+    filter: brightness(85%);
+    border: 3px solid #4ccc6a;
+}
